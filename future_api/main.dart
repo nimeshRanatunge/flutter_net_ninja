@@ -7,7 +7,7 @@ class myApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Asynchronous',
+      title: 'future_api',
       home: MyApp(),
       routes: <String, WidgetBuilder>{
         '/newpage' :(context)=>NetworkRequest(),
